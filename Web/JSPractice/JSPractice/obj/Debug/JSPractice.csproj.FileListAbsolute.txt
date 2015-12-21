@@ -1,0 +1,5 @@
+c:\users\carlos\documents\visual studio 2013\Projects\JSPractice\JSPractice\bin\JSPractice.dll
+c:\users\carlos\documents\visual studio 2013\Projects\JSPractice\JSPractice\bin\JSPractice.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\JSPractice\JSPractice\obj\Debug\JSPractice.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\JSPractice\JSPractice\obj\Debug\JSPractice.dll
+c:\users\carlos\documents\visual studio 2013\Projects\JSPractice\JSPractice\obj\Debug\JSPractice.pdb

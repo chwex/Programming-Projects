@@ -1,0 +1,14 @@
+﻿Build started 11/14/2014 8:41:37 AM.
+     1>Project "C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Examen\Examen.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling Examen.asm...
+         cmd.exe /C "C:\Users\Carlos\AppData\Local\Temp\tmp581a896013be49d5bcbba6befb12a24f.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Examen.obj" /W3 /errorReport:prompt  /TaExamen.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Debug\Examen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Debug\Examen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Debug\Examen.lib" /MACHINE:X86 Debug\Examen.obj
+         Examen.vcxproj -> C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Debug\Examen.exe
+     1>Done Building Project "C:\Users\Carlos\Documents\Visual Studio 2013\Projects\Examen\Examen\Examen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42

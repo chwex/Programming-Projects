@@ -1,0 +1,57 @@
+import java.util.*;
+public class prac {
+public static void main(String args[]){
+	Scanner keyboard = new Scanner(System.in);
+	int ans1, ans2, ans3, score=0;
+	
+	
+	System.out.println("Quiz #1");
+	System.out.println("Q1) What is the capital of Colorado?");
+	System.out.println("     1) Boston");
+	System.out.println("     2) Los Angeles");
+	System.out.println("     3) Denver");
+	
+	ans1 = keyboard.nextInt();
+	
+	if(ans1 == 3){
+		System.out.println("You are right!");
+		score = score + 1;
+	}
+	else{
+		System.out.println("Sorry, Denver is the capital of Colorado");
+		score = score + 0;
+	}
+	
+	System.out.println("Q2) Can you store the value 2.06 in a variable type Double?");
+	System.out.println("     1) Yes");
+	System.out.println("     2) No");
+	
+	ans2 = keyboard.nextInt();
+	
+	if(ans2 == 1){
+		System.out.println("You are right!");
+		score = score + 1;
+	}
+	else{
+		System.out.println("Sorry, but the value 2.06 is in fact a Double");
+		score = score + 0;
+	}
+	
+	System.out.println("Q3) What is the result of 3+5+4?");
+	System.out.println("     1) 11");
+	System.out.println("     2) 12");
+	System.out.println("     2) 43");
+	
+	ans3 = keyboard.nextInt();
+	
+	if(ans3 == 2){
+		System.out.println("You are right!");
+		score = score + 1;
+	}
+	else{
+		System.out.println("Sorry, but the result is in fact 12");
+		score = score + 0;
+	}
+	System.out.println("Overall, you got "+score+" out of 3 correct!");
+}
+}

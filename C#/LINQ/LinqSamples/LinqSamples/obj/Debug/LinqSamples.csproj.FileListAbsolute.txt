@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\bin\Debug\LinqSamples.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\obj\Debug\LinqSamples.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\bin\Debug\LinqSamples.exe
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\bin\Debug\LinqSamples.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\obj\Debug\LinqSamples.exe
+c:\users\carlos\documents\visual studio 2012\Projects\LinqSamples\LinqSamples\obj\Debug\LinqSamples.pdb

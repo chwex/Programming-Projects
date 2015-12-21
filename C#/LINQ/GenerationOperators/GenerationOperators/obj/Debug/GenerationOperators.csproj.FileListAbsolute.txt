@@ -1,0 +1,6 @@
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\bin\Debug\GenerationOperators.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\obj\Debug\GenerationOperators.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\bin\Debug\GenerationOperators.exe
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\bin\Debug\GenerationOperators.pdb
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\obj\Debug\GenerationOperators.exe
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\GenerationOperators\GenerationOperators\obj\Debug\GenerationOperators.pdb

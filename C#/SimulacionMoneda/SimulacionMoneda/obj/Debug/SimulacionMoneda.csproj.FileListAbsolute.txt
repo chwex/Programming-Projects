@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\bin\Debug\SimulacionMoneda.exe.config
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\bin\Debug\SimulacionMoneda.exe
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\bin\Debug\SimulacionMoneda.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\obj\Debug\SimulacionMoneda.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\obj\Debug\SimulacionMoneda.exe
+c:\users\carlos\documents\visual studio 2013\Projects\SimulacionMoneda\SimulacionMoneda\obj\Debug\SimulacionMoneda.pdb

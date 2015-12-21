@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+    int num;
+    
+    System.out.println("I'm thinking of a number from 1 to 10. Try to guess it.");
+    System.out.print("Your Guess: ");
+    num = keyboard.nextInt();
+    
+    Random r = new Random();
+    int sec = 1+r.nextInt(10);
+    
+    if(sec == num){
+    System.out.println("That's right! My secret number was "+sec+"!");
+	}	
+	
+	else{
+		
+		System.out.println("Sorry, but I was really thinking of "+sec+"!");
+	}
+	}
+	}

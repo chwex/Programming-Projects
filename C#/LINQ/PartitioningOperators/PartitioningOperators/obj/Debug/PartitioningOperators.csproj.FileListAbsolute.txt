@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\bin\Debug\PartitioningOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\bin\Debug\PartitioningOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\bin\Debug\PartitioningOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\obj\Debug\PartitioningOperators.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\obj\Debug\PartitioningOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\PartitioningOperators\PartitioningOperators\obj\Debug\PartitioningOperators.pdb

@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+	int add = 0, num = 0;
+	
+	System.out.println("Number:");
+	num = keyboard.nextInt();
+	
+	while(num != 0){
+		add = add +num;
+		System.out.println("Number: ");
+		num = keyboard.nextInt();
+	}
+	
+	System.out.println("The total is "+add);
+	}
+	}

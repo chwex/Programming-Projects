@@ -1,0 +1,13 @@
+import java.util.*;
+public class prac{
+	public static void main(String []args){
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Count to: ");
+		int num = keyboard.nextInt();
+		
+		for(int x = 0; x<=num; x++){
+			System.out.print(x+" ");
+		}
+		
+	}
+}

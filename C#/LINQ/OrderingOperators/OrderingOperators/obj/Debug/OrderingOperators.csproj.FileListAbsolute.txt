@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\bin\Debug\OrderingOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\obj\Debug\OrderingOperators.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\bin\Debug\OrderingOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\bin\Debug\OrderingOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\obj\Debug\OrderingOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\OrderingOperators\OrderingOperators\obj\Debug\OrderingOperators.pdb

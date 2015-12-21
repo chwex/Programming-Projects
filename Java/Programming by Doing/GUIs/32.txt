@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+		Scanner keyboard = new Scanner(System.in);
+		String ans1, ans2;
+		
+		System.out.println("Two Questons!!!");
+		System.out.println("Think of an object and I´ll try to guess it.");
+		System.out.println("Q1) Is it an animal, vegetable, or mineral? ");
+		ans1 = keyboard.next();
+		
+		System.out.println("Q2) Is it bigger than a breadbox? ");
+		ans2 = keyboard.next();
+		
+		if(ans1.equals("animal")){
+			if(ans2.equals("yes")){
+				System.out.println("It's a moose!");
+			}
+			else{
+				System.out.println("It's a Squirrel!");
+			}
+		}
+		else if(ans1.equals("vegetable")){
+			if(ans2.equals("yes")){
+				System.out.println("It's a watermelon!");
+			}
+			else{
+				System.out.println("It's a Carrot!");
+			}
+		}
+		
+		else if(ans1.equals("mineral")){
+			if(ans2.equals("yes")){
+				System.out.println("It's a Camaro!");
+			}
+			else{
+				System.out.println("It's a paper clip!");
+			}
+		}
+			
+		}
+	}

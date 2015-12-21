@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="learnYourMaths.Game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28" Background="Black">
+            <TextBlock Text="Learn Your Maths" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Multiplication" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <MediaElement x:Name="Correcto" Height="10" Width="10" Source="/Resources/Sounds/wow.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Correcto1" Height="10" Width="10" Source="/Resources/Sounds/DAMNSONWHEREDYOUFINDTHIS.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Correcto2" Height="10" Width="10" Source="/Resources/Sounds/AIRHORN.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Incorrecto" Height="10" Width="10" Source="/Resources/Sounds/SuddenImpact1.wav" AutoPlay="False"/>
+        <MediaElement x:Name="Incorrecto1" Height="10" Width="10" Source="/Resources/Sounds/WatchaSay.wav" AutoPlay="False"/>
+        <MediaElement x:Name="Incorrecto2" Height="10" Width="10" Source="/Resources/Sounds/MLGHORNS2.wav" AutoPlay="False"/>
+        <MediaElement x:Name="HitMaker" Height="10" Width="10" Source="/Resources/Sounds/HITMARKER.mp3" AutoPlay="False"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Border Name="Mainblk" HorizontalAlignment="Center" Height="111" VerticalAlignment="Top" Width="374" Margin="42,65,40,0" Background="Black" BorderThickness="1" BorderBrush="White">
+                <TextBlock x:Name="MainBlock" HorizontalAlignment="center" Height="111"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="374" Margin="-1" FontWeight="Bold" FontSize="{StaticResource PhoneFontSizeExtraExtraLarge}" TextAlignment="Center">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource PhoneAccentColor}"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Border>
+
+            <Border x:Name="ansblk1" Background="Black" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="42,0,0,38" VerticalAlignment="Bottom" Width="105">
+                <TextBlock x:Name="ansBlock1" Tap="onTouch1" HorizontalAlignment="Center" Height="103"  TextWrapping="Wrap"  VerticalAlignment="Center" Width="105" Margin="-1" Foreground="{StaticResource PhoneAccentBrush}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" TextAlignment="Center"/>
+            </Border>
+
+            <Border x:Name="ansblk2" Background="Black" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" Height="103" Margin="176,0,175,38" VerticalAlignment="Bottom" Width="105">
+                <TextBlock x:Name="ansBlock2" Tap="onTouch2" HorizontalAlignment="center" Height="103"  TextWrapping="Wrap"  VerticalAlignment="Center" Width="105" Margin="-1" Foreground="{StaticResource PhoneAccentBrush}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" TextAlignment="Center"/>
+            </Border>
+
+            <Border x:Name="ansblk3" Background="Black" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="311,0,40,40" VerticalAlignment="Bottom" Width="105">
+                <TextBlock x:Name="ansBlock3" Tap="onTouch3" HorizontalAlignment="Center" Height="103" VerticalAlignment="Center" TextWrapping="Wrap" Width="105" Margin="-1" Foreground="{StaticResource PhoneAccentBrush}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" TextAlignment="Center" />
+            </Border>
+
+            <Border x:Name="Stats" Background="Black" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="227" Margin="42,205,0,0" VerticalAlignment="Top" Width="374">
+                <TextBlock x:Name="score" HorizontalAlignment="Left" Height="207" Margin="9,9,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354" Foreground="{StaticResource PhoneAccentBrush}" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" TextAlignment="Center"/>
+            </Border>
+            <TextBlock x:Name="CoIn" HorizontalAlignment="Right" Height="103"  TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="374" Margin="0,0,40,198" FontSize="{StaticResource PhoneFontSizeLarge}" FontWeight="Bold" TextAlignment="Center"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

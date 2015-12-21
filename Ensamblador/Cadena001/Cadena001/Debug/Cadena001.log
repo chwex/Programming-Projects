@@ -1,0 +1,14 @@
+﻿Build started 12/5/2014 10:00:10 AM.
+     1>Project "c:\Users\Carlos\documents\visual studio 2013\Projects\Cadena001\Cadena001\Cadena001.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling Caneda001.asm...
+         cmd.exe /C "C:\Users\Carlos\AppData\Local\Temp\tmp693d3002ff544daba87f3465e109172f.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Caneda001.obj" /W3 /errorReport:prompt  /TaCaneda001.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\carlos\documents\visual studio 2013\Projects\Cadena001\Debug\Cadena001.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\carlos\documents\visual studio 2013\Projects\Cadena001\Debug\Cadena001.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\carlos\documents\visual studio 2013\Projects\Cadena001\Debug\Cadena001.lib" /MACHINE:X86 Debug\Caneda001.obj
+         Cadena001.vcxproj -> c:\users\carlos\documents\visual studio 2013\Projects\Cadena001\Debug\Cadena001.exe
+     1>Done Building Project "c:\Users\Carlos\documents\visual studio 2013\Projects\Cadena001\Cadena001\Cadena001.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.18

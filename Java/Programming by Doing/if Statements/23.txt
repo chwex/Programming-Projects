@@ -1,0 +1,53 @@
+//else if is saying if the first statement is not true then try this other statement.  If the second statement 
+// is not true, then the code inside the else brackets is going to run.
+
+//When the else is removed from the first else if statement it results on printing an extra line that says "we 
+//can't decide." This is because the second if is acting as being a new one and the else is acting as if it's
+//with the second if.  Either the code in the if prints or the code in the else brackets prints.
+
+import java.util.*;
+public class prac {
+public static void main(String args[]){
+	int people = 30;
+	int cars = 40;
+	int buses = 15;
+
+	if ( cars > people )
+	{
+		System.out.println( "We should take the cars." );
+	}
+	if ( cars < people )
+	{
+		System.out.println( "We should not take the cars." );
+	}
+	else
+	{
+		System.out.println( "We can't decide." );
+	}
+
+
+	if ( buses > cars )
+	{
+		System.out.println( "That's too many buses." );
+	}
+	else if ( buses < cars )
+	{
+		System.out.println( "Maybe we could take the buses." );
+	}
+	else
+	{
+		System.out.println( "We still can't decide." );
+	}
+
+
+	if ( people > buses )
+	{
+		System.out.println( "All right, let's just take the buses." );
+	}
+	else
+	{
+		System.out.println( "Fine, let's stay home then." );
+	}
+
+}
+}

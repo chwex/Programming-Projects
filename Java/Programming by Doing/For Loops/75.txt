@@ -1,0 +1,36 @@
+import java.util.*;
+
+public class prac{
+	public static void main( String[] args )
+	{
+
+	Random r = new Random();
+	int card1 =  1 + r.nextInt(10);
+	int card2 =  1 + r.nextInt(10);
+	int card3 =  1 + r.nextInt(10);
+	int card4 =  1 + r.nextInt(10);
+	int ptot=0, ctot=0;
+	
+	ptot = card1 + card2;
+	ctot = card3 +card4;
+	
+	System.out.println("Baby Blackjack");
+	System.out.println();
+	
+	System.out.println("You drew "+card1+" and "+card2+".");
+	System.out.println("Your total is "+ptot);
+	System.out.println();
+	
+	System.out.println("The dealer has "+card3+" and "+card4+".");
+	System.out.println("The dealer's total is "+ctot);
+	System.out.println();
+	if(ctot>ptot){
+		System.out.println("You Lose!");
+	}
+	else{
+		System.out.println("You Win!");
+	}
+	
+	System.out.println(card1+" "+card2+" "+card3+" "+card4+" ");
+}
+}

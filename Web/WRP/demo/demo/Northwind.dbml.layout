@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.375" name="Northwind">
+  <DataContextMoniker Name="/NorthwindDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8894449a-ca49-46eb-a939-2f53f1c6beb2" absoluteBounds="1, 5.375, 2, 4.2708154296875">
+      <DataClassMoniker Name="/NorthwindDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="02b82afc-cf1d-455a-a826-b606896b523a" absoluteBounds="1.0149999999999997, 5.835, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.70923076923077 : 9.6458154296875); (1.70923076923077 : 9.8958154296875); (2.30461538461538 : 9.8958154296875); (2.30461538461538 : 9.6458154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/NorthwindDataContext/Employee/Employee_Employee" />
+      <nodes>
+        <classShapeMoniker Id="8894449a-ca49-46eb-a939-2f53f1c6beb2" />
+        <classShapeMoniker Id="8894449a-ca49-46eb-a939-2f53f1c6beb2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c6c74e62-5abd-4036-96aa-7c66c37558d6" absoluteBounds="4.5, 5.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/NorthwindDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21d1a317-c100-4f8b-b8d1-d29acbfdad71" absoluteBounds="4.515, 6.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 7.62580485026042); (4.5 : 7.62580485026042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NorthwindDataContext/Employee/Employee_Order" />
+      <nodes>
+        <classShapeMoniker Id="8894449a-ca49-46eb-a939-2f53f1c6beb2" />
+        <classShapeMoniker Id="c6c74e62-5abd-4036-96aa-7c66c37558d6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+	Random r = new Random();
+	int num;
+	int sec = 1+r.nextInt(100);
+	
+	System.out.println("I'm thinking of a number between 1 - 100. Try to guess it.");
+	num = keyboard.nextInt();
+	
+	if(num > sec){
+		System.out.println("Sorry, you are too high. I was thinking of "+sec);
+	}
+	else if(num < sec){
+		System.out.println("Sorry you are too low. I was thinking of "+sec);
+	}
+	else if(num == sec){
+		System.out.println("You guessed it! What are the odds?!?");
+	}
+	}
+	}

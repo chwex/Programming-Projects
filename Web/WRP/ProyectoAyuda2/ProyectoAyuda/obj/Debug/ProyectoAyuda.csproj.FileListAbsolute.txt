@@ -1,0 +1,2 @@
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\ProyectoAyuda\ProyectoAyuda\obj\Debug\ProyectoAyuda.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\ProyectoAyuda2\ProyectoAyuda\obj\Debug\ProyectoAyuda.csprojResolveAssemblyReference.cache

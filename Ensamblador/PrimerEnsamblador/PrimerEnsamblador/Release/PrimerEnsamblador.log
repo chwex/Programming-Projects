@@ -1,0 +1,12 @@
+﻿Compilación iniciada a las 9/18/2014 12:28:08 PM.
+     1>Proyecto "C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\PrimerEnsamblador\PrimerEnsamblador.vcxproj" en el nodo 2 (Build destinos).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\Release\PrimerEnsamblador.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\Release\PrimerEnsamblador.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\Release\PrimerEnsamblador.lib" /MACHINE:X86 /SAFESEH Release\PrimerEnsamblador.obj
+         LINK : se especificó /LTCG pero no se requiere generación de código; quite /LTCG de la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+     1>PrimerEnsamblador.obj : error LNK2026: módulo no seguro de una imagen SAFESEH.
+     1>C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\Release\PrimerEnsamblador.exe : fatal error LNK1281: No se puede generar la imagen SAFESEH.
+     1>Compilación del proyecto terminada "C:\Users\Carlos\documents\visual studio 2013\Projects\PrimerEnsamblador\PrimerEnsamblador\PrimerEnsamblador.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.09

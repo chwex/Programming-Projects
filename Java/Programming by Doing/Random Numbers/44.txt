@@ -1,0 +1,47 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+    Random r = new Random();
+    
+    int fort = 1+r.nextInt(6);
+    int ran1 = 1+r.nextInt(54);
+    int ran2 = 1+r.nextInt(54);
+    int ran3 = 1+r.nextInt(54);
+    int ran4 = 1+r.nextInt(54);
+    int ran5 = 1+r.nextInt(54);
+    int ran6 = 1+r.nextInt(54);
+    
+    String m1, m2, m3, m4, m5, m6;
+    m1 = "You laugh now, wait till you get home.";
+    m2 = "Fortune Not Found: Abort, Retry, Ignore?";
+    m3 = "Your flamboyant personality will soon bring you to a new hobby.";
+    m4 = "Wouldn't be ironic to die in the living room?";
+    m5 = "Relationships";
+    m6 = "Broncos Win! 28-17";
+    if(fort == 1){
+    	System.out.println("Fortune Cookie says: "+m1);
+    }
+    else if(fort ==2){
+    	System.out.println("Fortune Cookie says: "+m2);
+    }
+    else if(fort ==3){
+    	System.out.println("Fortune Cookie says: "+m3);
+    }
+    else if(fort ==2){
+    	System.out.println("Fortune Cookie says: "+m2);
+    }
+    else if(fort ==4){
+    	System.out.println("Fortune Cookie says: "+m4);
+    }
+    else if(fort ==5){
+    	System.out.println("Fortune Cookie says: "+m5);
+    }
+    else if(fort ==6){
+    	System.out.println("Fortune Cookie says: "+m6);
+    }
+    
+    System.out.println(ran1+"-"+ran2+"-"+ran3+"-"+ran4+"-"+ran5+"-"+ran6);
+    
+	}
+	}

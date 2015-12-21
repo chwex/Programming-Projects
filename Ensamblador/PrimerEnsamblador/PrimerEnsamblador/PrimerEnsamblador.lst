@@ -1,0 +1,107 @@
+Microsoft (R) Macro Assembler Version 12.00.30501.0	    09/18/14 12:27:59
++Programa de ejemplo de Lenguaje Ensamblado		     Page 1 - 1
+
+
+									TITLE	Programa de ejemplo de Lenguaje Ensamblador
+									.586
+									.MODEL	FLAT, STDCALL
+
+ =-0000000B			STD_OUTPUT_HANDLE	EQU		-11
+				GetStdHandle		PROTO	:DWORD
+				WriteConsoleA		PROTO	:DWORD, :DWORD, :DWORD, :DWORD, :DWORD
+				ExitProcess			PROTO	:DWORD
+
+									.STACK
+ 00000000								.DATA
+ 00000000 4D 69 20 4E 6F	Nombre				BYTE	"Mi Nombre es Jaime Felix", 13, 10
+	   6D 62 72 65 20
+	   65 73 20 4A 61
+	   69 6D 65 20 46
+	   65 6C 69 78 0D
+	   0A
+ 0000001A 4D 69 20 4E 6F	Nombre2				BYTE	"Mi Nombre es David Hernandez", 13, 10
+	   6D 62 72 65 20
+	   65 73 20 44 61
+	   76 69 64 20 48
+	   65 72 6E 61 6E
+	   64 65 7A 0D 0A
+ 00000038 4D 69 20 4E 6F	Nombre3				BYTE	"Mi Nombre es Carlos Valdez", 13, 10
+	   6D 62 72 65 20
+	   65 73 20 43 61
+	   72 6C 6F 73 20
+	   56 61 6C 64 65
+	   7A 0D 0A
+ 00000054 = 00000054		Long_N				EQU		$ - Nombre
+ 00000054 = 0000003A		Long_N2				EQU		$ - Nombre2
+ 00000054 = 0000001C		Long_N3				EQU		$ - Nombre3
+ 00000054 00000000		Manejador			DWORD	?
+ 00000058 00000000		Caracteres			DWORD	?
+
+									
+ 00000000								.CODE
+ 00000000			Main				PROC
+									INVOKE	GetStdHandle, STD_OUTPUT_HANDLE
+ 00000007  A3 00000054 R						MOV		Manejador, EAX					
+									
+									; Mostrar mensaje
+ 0000000C  B8 00000054							MOV		EAX, Long_N
+ 00000011  B9 0000003A							MOV		ECX, Long_N2
+ 00000016  BA 0000001C							MOV		EDX, Long_N3
+									INVOKE	WriteConsoleA, Manejador, ADDR Nombre, EAX, ADDR Caracteres, 0
+									
+
+									; Salir al SO
+									INVOKE	ExitProcess, 0
+ 0000003A			Main				ENDP
+									END		Main
+Microsoft (R) Macro Assembler Version 12.00.30501.0	    09/18/14 12:27:59
++Programa de ejemplo de Lenguaje Ensamblado		     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00000400 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000005C Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000003A Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+GetStdHandle . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+Main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000003A Public STDCALL
+WriteConsoleA  . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Caracteres . . . . . . . . . . .	DWord	 00000058 _DATA	
+Long_N2  . . . . . . . . . . . .	Number	 0000003Ah   
+Long_N3  . . . . . . . . . . . .	Number	 0000001Ch   
+Long_N . . . . . . . . . . . . .	Number	 00000054h   
+Manejador  . . . . . . . . . . .	DWord	 00000054 _DATA	
+Nombre2  . . . . . . . . . . . .	Byte	 0000001A _DATA	
+Nombre3  . . . . . . . . . . . .	Byte	 00000038 _DATA	
+Nombre . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+STD_OUTPUT_HANDLE  . . . . . . .	Number	 -0000000Bh   
+
+	   0 Warnings
+	   0 Errors

@@ -1,0 +1,6 @@
+package basicsdoing;
+public class BasicsDoing {
+    public static void main(String[] args) {
+System.out.println("Carlos is Cool"); 
+    }
+}

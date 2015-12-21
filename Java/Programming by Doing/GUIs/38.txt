@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	
+		System.out.print("Comparing \"maybach\"with \"music\" produces ");
+	    System.out.println("maybach".compareTo("music"));
+	    
+	    System.out.print("Comparing \"balanza\"with \"paz\" produces ");
+	    System.out.println("balanza".compareTo("paz"));
+		
+		System.out.print("Comparing \"axe\" with \"dog\" produces ");
+		int i = "axe".compareTo("dog");
+		System.out.println(i);
+		
+		System.out.print("Comparing \"niña\"with \"primavera\" produces ");
+	    System.out.println("niña".compareTo("primavera"));
+	    
+	    System.out.print("Comparing \"blues\"with \"cobain\" produces ");
+	    System.out.println("blues".compareTo("cobain"));
+	    
+	    System.out.print("Comparing \"dioses\"with \"dioses\" produces ");
+	    System.out.println("dioses".compareTo("dioses"));
+	    
+	    System.out.print("Comparing \"words\"with \"words\" produces ");
+	    System.out.println("words".compareTo("words"));
+	    
+	    System.out.print("Comparing \"hasta\"with \"final\" produces ");
+	    System.out.println("hasta".compareTo("final"));
+		
+		System.out.print("Comparing \"applebee's\" with \"apple\" produces ");
+		System.out.println( "applebee's".compareTo("apple") );
+		
+	    System.out.print("Comparing \"idioma\"with \"delos\" produces ");
+	    System.out.println("idioma".compareTo("delos"));
+	    
+	    System.out.print("Comparing \"under\"with \"pressure\" produces ");
+	    System.out.println("under".compareTo("pressure"));
+	    
+	    System.out.print("Comparing \"wonder\"with \"brown\" produces ");
+	    System.out.println("wonder".compareTo("brown"));
+	    
+	    
+	}
+	}

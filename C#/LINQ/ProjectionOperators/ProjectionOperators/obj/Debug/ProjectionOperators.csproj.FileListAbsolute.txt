@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\bin\Debug\ProjectionOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\bin\Debug\ProjectionOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\bin\Debug\ProjectionOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\obj\Debug\ProjectionOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\obj\Debug\ProjectionOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\ProjectionOperators\ProjectionOperators\obj\Debug\ProjectionOperators.csprojResolveAssemblyReference.cache

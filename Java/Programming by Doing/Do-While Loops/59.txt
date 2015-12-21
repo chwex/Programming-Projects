@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+	int num=0, counter = 0;
+	
+	
+	System.out.println("I'm thinking of a number from 1 to 10. Try to guess it.");
+	 Random r = new Random();
+	 int sec = 1+r.nextInt(10);
+	
+	 
+	 do{
+		System.out.println("Your Guess:");
+		num = keyboard.nextInt();
+		if(sec!= num){
+			System.out.println("That is incorrect. Guess again.");
+		}
+		counter++;
+		
+	}
+	while(sec != num);
+	
+	 
+	 System.out.println("That's right! You are a good guesser.");
+	 System.out.println("It only took you "+counter+" tries.");
+	
+	}
+	}

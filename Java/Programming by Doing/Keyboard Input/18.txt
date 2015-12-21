@@ -1,0 +1,18 @@
+
+import java.util.*;
+public class prac {
+public static void main(String args[]){
+	Scanner keyboard = new Scanner(System.in);
+	
+	System.out.println("What is your name? ");
+	String name = keyboard.next();
+	
+	System.out.println("Hi, "+name+"! How old are you? ");
+	int age = keyboard.nextInt();
+	
+	System.out.println("DId you know that in five years you will be "+(age+5)+" old? ");
+	System.out.println("And five years ago you were "+(age-5)+"! Imagine that!" );
+	
+
+}
+}

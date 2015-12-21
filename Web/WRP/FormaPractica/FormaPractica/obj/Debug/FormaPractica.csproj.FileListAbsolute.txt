@@ -1,0 +1,5 @@
+c:\users\carlos\documents\visual studio 2012\Projects\FormaPractica\FormaPractica\bin\FormaPractica.dll
+c:\users\carlos\documents\visual studio 2012\Projects\FormaPractica\FormaPractica\bin\FormaPractica.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\FormaPractica\FormaPractica\obj\Debug\FormaPractica.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\FormaPractica\FormaPractica\obj\Debug\FormaPractica.dll
+c:\users\carlos\documents\visual studio 2012\Projects\FormaPractica\FormaPractica\obj\Debug\FormaPractica.pdb

@@ -1,0 +1,35 @@
+public class apples {
+public static void main(String args[]){
+	System.out.println( "I will now count my chickens:" );
+    
+	//adds 25 + 5
+	System.out.println( "Hens " + ( (float) 25 + 30 / 6 ) );
+	
+	// first multiply 25*3 then use the remainder operator which leaves it in 3.  100-3 = 97
+	System.out.println( "Roosters " + ((float) 100 - 25 * 3 % 4 ) );
+
+	//first divides (1/4) = .25 add 0 then 6 - 5= 1.25+6 = 7.25 need to change to float.
+	System.out.println( "Now I will count the eggs:" );
+	System.out.println((float) 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 );
+
+	//Checks if the left side is less than the right side. this is False
+	System.out.println( "Is it true that 3 + 2 < 5 - 7?" );
+	System.out.println( (float)3 + 2 < 5 - 7 );
+
+	// the next line prints 5
+	System.out.println( "What is 3 + 2? " + ((float) 3 + 2 ) );
+	
+	// the next line prints -2
+	System.out.println( "What is 5 - 7? " + ((float) 5 - 7 ) );
+	System.out.println( "Oh, that's why it's false." );
+
+	System.out.println( "How about some more." );
+    //prints true since 5 is more than -2
+	System.out.println( "Is it greater? " + ((float) 5 > -2 ) );
+	//prints true for the same reason but not because it's equals
+	System.out.println( "Is it greater or equal? " + ((float) 5 >= -2 ) );
+	// prints false because 5 is not less than or equal to -2
+	System.out.println( "Is it less or equal? " + ((float) 5 <= -2 ) );
+}
+}
+

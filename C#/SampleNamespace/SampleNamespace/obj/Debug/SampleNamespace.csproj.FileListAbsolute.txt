@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\bin\Debug\SampleNamespace.exe.config
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\bin\Debug\SampleNamespace.exe
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\bin\Debug\SampleNamespace.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\obj\Debug\SampleNamespace.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\obj\Debug\SampleNamespace.exe
+c:\users\carlos\documents\visual studio 2013\Projects\SampleNamespace\SampleNamespace\obj\Debug\SampleNamespace.pdb

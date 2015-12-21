@@ -1,0 +1,20 @@
+//BMI = ( Weight in Kilograms / ( Height in Meters x Height in Meters ) )
+import java.util.*;
+public class prac {
+public static void main(String args[]){
+	Scanner keyboard = new Scanner(System.in);
+	double weight, height, bmi;
+	
+	System.out.println("What is your weight? ");
+	weight = keyboard.nextDouble();
+	
+	System.out.println("What is your height? ");
+	height = keyboard.nextDouble();
+	
+	bmi = weight/(height*height);
+	
+	System.out.println("Your BMI is: "+bmi);
+	
+	
+}
+}

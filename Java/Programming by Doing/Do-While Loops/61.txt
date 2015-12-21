@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+		Scanner keyboard = new Scanner(System.in);
+		int s1=0, s2=0, s3=0;
+		int ns1=0, ns2=0, ns3=0;
+		System.out.println("Enter three integers:");
+			System.out.println("Side 1:");
+			s1 = keyboard.nextInt();
+			System.out.println("Side 2:");
+			s2 = keyboard.nextInt();
+			
+			while(s1 > s2){
+				System.out.println(s2+" is smaller than "+ s1+". Try again.");
+				System.out.println("Side 2:");
+				s2 = keyboard.nextInt();
+			}
+			System.out.println("Side 3:");
+			s3 = keyboard.nextInt();
+			
+			while(s2 > s3 ){
+				System.out.println(s3+" is smaller than "+ s2+". Try again.");
+				System.out.println("Side 3:");
+				s3 = keyboard.nextInt();
+			}
+			
+		System.out.println("Your three sides are "+s1+" "+s2+" "+s3);
+
+		if(s3*s3 == s2*s2+s1*s1){
+			System.out.println("The sides do make a right triangle.");
+		}
+		else{
+			System.out.println("Te sides do NOT make a right triangle.");
+		}
+	}
+	}

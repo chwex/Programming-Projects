@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	int num;
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("SQUARE ROOT!");
+	System.out.println("Enter a Number: ");
+	num = keyboard.nextInt();
+	
+	while(num < 0){
+		System.out.println("You can't take the square root of a negative number, silly.");
+		System.out.println("Enter a Number: ");
+		num = keyboard.nextInt();
+	}
+	
+	System.out.println("The square root of "+num+ " is "+Math.sqrt(num)+".");
+	
+	}
+	}

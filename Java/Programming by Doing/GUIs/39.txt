@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+    String ln;
+		
+	System.out.println("What is your last name?");
+	ln = keyboard.next();
+	
+	if(ln.compareTo("Carlswell")<=0){
+		System.out.println("you don't have to wait long, "+ln+".");
+	}
+	
+	else if(ln.compareTo("Jones") <=0){
+		System.out.println("that's not bad, "+ln+".");
+	}
+	
+	else if(ln.compareTo("Smith")<=0){
+		System.out.println("Looks like a bit of wait ,"+ln+".");
+	}
+	
+	else if(ln.compareTo("Young")<=0){
+		System.out.println("it's going to be a while, "+ln+".");
+	}
+	
+	else if(ln.compareTo("Young")>0){
+		System.out.println("not going anywhere fot a while, "+ln+".");
+	}
+	
+	}
+	}

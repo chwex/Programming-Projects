@@ -1,0 +1,30 @@
+// the program still works if i remove what i added in step 1 because now the string is not needed anymore to
+// initialize the code.  The do part of the loop takes care of the code and initializes it without a requirement. 
+import java.util.*;
+
+public class prac{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random rng = new Random();
+
+		String again;
+
+		do
+		{
+			int flip = rng.nextInt(2);
+			String coin;
+
+			if ( flip == 1 )
+				coin = "HEADS";
+			else
+				coin = "TAILS";
+
+			System.out.println( "You flip a coin and it is... " + coin );
+
+			System.out.print( "Would you like to flip again (y/n)? " );
+			again = keyboard.next();
+		}
+		while ( again.equals("y") );
+	}
+}

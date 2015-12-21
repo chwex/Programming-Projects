@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\bin\Debug\GroupingOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\bin\Debug\GroupingOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\bin\Debug\GroupingOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\obj\Debug\GroupingOperators.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\obj\Debug\GroupingOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\GroupingOperators\GroupingOperators\obj\Debug\GroupingOperators.pdb

@@ -1,0 +1,12 @@
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
+c:\users\carlos\documents\visual studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache

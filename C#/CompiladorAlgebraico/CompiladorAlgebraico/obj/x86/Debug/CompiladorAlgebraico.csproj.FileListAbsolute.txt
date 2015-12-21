@@ -1,0 +1,16 @@
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\bin\Debug\CompiladorAlgebraico.exe
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\bin\Debug\CompiladorAlgebraico.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.Form1.resources
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.Properties.Resources.resources
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.exe
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.exe
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\bin\Debug\CompiladorAlgebraico.exe
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\bin\Debug\CompiladorAlgebraico.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.csprojResolveAssemblyReference.cache
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.Form1.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.Properties.Resources.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\CompiladorAlgebraico\CompiladorAlgebraico\obj\x86\Debug\CompiladorAlgebraico.csproj.GenerateResource.Cache

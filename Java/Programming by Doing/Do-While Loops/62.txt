@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+		Scanner keyboard = new Scanner(System.in);
+		int n = 0, counter = 1, highN=0;
+		
+		System.out.print("Starting Number: ");
+		n = keyboard.nextInt();
+		System.out.printf("%-10d", n);
+		while(n > 1){
+			if(n%2 == 0){
+				n = n/2;
+				if(counter%10 == 0 && counter > 2){
+					System.out.printf("\n%-10d" , n);
+				}
+				else{
+					System.out.printf("%-10d", n);
+				}			
+			}
+			else{
+				n = 3*n+1;
+				if(counter%10 == 0 && counter > 2){
+					System.out.printf("\n%-10d" , n);
+				}
+				else{
+					System.out.printf("%-10d", n);
+				}
+			}
+			counter++;
+			if(n > highN){
+				highN = n;
+			}
+		}
+		System.out.println();
+		System.out.println();
+		System.out.println("Total Numbers in the Secuence: "+counter);
+		System.out.println("The largest value was: "+highN);
+	}
+	}

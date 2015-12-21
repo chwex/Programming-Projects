@@ -1,0 +1,17 @@
+public class apples {
+public static void main(String args[]){
+String course1 = "Calculo Integral", course2 = "Programacion OO", course3 = "Probabilidad Y Estadistica",
+       course4 = "Algebra Lineal", course5 = "Contabilidad", course6 = "Quimica", profe1 = "Jerson", 
+       profe2 = "Barron", profe3 = "Nachito", profe4 = "Verdugo Verdugo", profe5 = "Taniyama", profe6 = "Paola";
+
+System.out.println("+----------------------------------------------------+");
+System.out.println("|1|"+course1+"           |                "+profe1+"|");
+System.out.println("|2|"+course2+"            |                "+profe2+"|");
+System.out.println("|3|"+course3+" |               "+profe3+"|");
+System.out.println("|4|"+course4+"             |       "+profe4+"|");
+System.out.println("|5|"+course5+"               |              "+profe5+"|");
+System.out.println("|6|"+course6+"                    |                 "+profe6+"|");
+
+System.out.println("+----------------------------------------------------+");
+}
+}

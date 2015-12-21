@@ -1,0 +1,34 @@
+tarea heerncia
+crear una subclase de la cuenta de cheques llamada cuenta de cheques especial
+lo especial consiste en calcular los intereses de la siguiente manera.
+
+Se pagaran intereses a la tasa contrarada solo si se tiene un saldo minimo de 3000 pesos
+-ccuenta
+ -cuenta de ahorro
+ -cuenta de cheques
+  -cuenta de cheques especial
+  
+
+INterface
+	es un mecanismo que pérmite interactuar a objetos no relacionados entre si. (algunos d
+dicen que es abstracta pura).  Se puede considerar como un contrato en el que la clase que la 
+implementa esta obligada a redefinir los metodos abstractos que defina la interface.
+Consta de dos partes
+1. El nombre de la interface precedida por la palabra reservada interface.  
+2. El cuerpo de la interface encerrada entre llaves.
+
+Sintaxis
+
+Modificador       interface    nombre de la 
+de Accesso                      interface 
+
+public            interface        Ifecha
+{
+
+||||||||
+|||||||||
+   ||||
+
+}
+
+EL cuerpo de la interface solo contiene declaraciones constantes y metodos abstractos

@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\bin\Debug\SetOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\bin\Debug\SetOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\bin\Debug\SetOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\obj\Debug\SetOperators.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\obj\Debug\SetOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\SetOperators\SetOperators\obj\Debug\SetOperators.pdb

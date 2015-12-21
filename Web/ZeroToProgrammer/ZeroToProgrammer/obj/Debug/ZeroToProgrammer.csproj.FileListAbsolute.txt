@@ -1,0 +1,11 @@
+c:\users\carlos\documents\visual studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.dll.config
+c:\users\carlos\documents\visual studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.dll
+c:\users\carlos\documents\visual studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\obj\Debug\ZeroToProgrammer.dll
+c:\users\carlos\documents\visual studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\obj\Debug\ZeroToProgrammer.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.dll.config
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.dll
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\bin\ZeroToProgrammer.pdb
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\obj\Debug\ZeroToProgrammer.csprojResolveAssemblyReference.cache
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\obj\Debug\ZeroToProgrammer.dll
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\ZeroToProgrammer\ZeroToProgrammer\obj\Debug\ZeroToProgrammer.pdb

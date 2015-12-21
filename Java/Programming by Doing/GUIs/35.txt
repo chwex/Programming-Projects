@@ -1,0 +1,42 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+		Scanner keyboard = new Scanner(System.in);
+		String ans1, ans2;
+		
+		System.out.println("TWO MORE QUESTIONS, BABY!");
+		System.out.println("Think of something and I'll try to guess it!");
+		
+		System.out.println("Question 1) Does it stay inside or outside or both?");
+		ans1 = keyboard.next();
+		
+		System.out.println("Question 2) Is it a living thing?");
+		ans2 = keyboard.next();
+		
+		if(ans1.equals("inside") && ans2.equals("yes")){
+			System.out.println("Then what else could you be thinking of besides a houseplant!?! ");
+		}
+		
+		if(ans1.equals("inside") && ans2.equals("no")){
+			System.out.println("Then what else could you be thinking of besides a shower curtain!?!");
+		}
+		
+		if(ans1.equals("outside") && ans2.equals("yes")){
+			System.out.println("Then what else could you be thinking of besides a bison!?!");
+		}
+		
+		if(ans1.equals("outside") && ans2.equals("no")){
+			System.out.println("Then what else could you be thinking of besides a billboard!?!");
+		}
+		
+		if(ans1.equals("both") && ans2.equals("yes")){
+			System.out.println("Then what else could you be thinking of besides a dog!?!");
+		}
+		
+		if(ans1.equals("both") && ans2.equals("no")){
+			System.out.println("Then what else could you be thinking of besides a cell phone!?!");
+		}
+		
+		}
+	}

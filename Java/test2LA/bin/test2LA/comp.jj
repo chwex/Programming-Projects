@@ -1,0 +1,257 @@
+/*Cuando cargo el codigo 
+siempre debo de poner un espacio despues del caracter 
+si no, no me lo reconoce, ahy se usa el LOOKAHEAD?
+
+Tambien debo de poner un espacio al final si quiero escribir una cadena dentro de
+un metodo o un token en este codigo, como corrijo eso? 
+
+como hacer para poder ingresar mas sentencias en codigo.txt linea 8
+ej:
+ien ( x == 0 ) { x } 
+ya no me permite definir mas sentencias, por el momento 
+todas las sentencias estan dentro de ( )* para poder hacerlas 1 o mas veces
+es eso correcto? 
+
+checar metodo expresion tengo que hacer un 
+metodo para cada or | ( si lo de la sentencias es correcto esto es lo unico que me falta)
+
+
+*/
+
+PARSER_BEGIN(comp)
+class comp 
+{
+	public static void main( String[] args )throws ParseException
+	{
+		try
+		{
+			comp analizador = new comp( System.in ) ;
+			analizador.Programa() ; 
+		}
+		catch(ParseException e)
+		{
+			System.out.println(e.getMessage());
+			System.out.println("Analizador: Se han encontrado errores en el analisis.");
+		}
+	}
+}
+PARSER_END(comp)
+
+SKIP : 
+{ 
+	" "|"\n" | "\r" | "\r\n" 
+}
+TOKEN:
+{
+	  <TYPES:"inum"|"idec"|"istr"|"ichr">{System.out.println("ENTERO -> "+image);}
+	| <NUMBER : (["0"-"9"])+ > {System.out.print("NUMERO "+image+"\r\n");}
+	| <IDENTIFIER : ["a"-"z","A"-"Z"](["a"-"z","A"-"Z","0"-"9","_"])*> {System.out.print("IDENTIFICADOR -> "+image+"\r\n");}
+	| <CADENA : ["a"-"z","A"-"Z","0"-"9"](["a"-"z","A"-"Z","0"-"9"])*>{System.out.print("CADENA -> "+image+"\r\n");}
+}
+TOKEN : 
+{ 
+	  <ASIGNACION : "= "> {System.out.println("ASIGNACION -> "+image+"\r\n");}
+	| <PLUS : "+" > {System.out.println("MAS -> "+image+"\r\n");}
+	| <MINUS:"-">{System.out.println("MENOS -> "+image+"\r\n");}
+	| <MULTIPLY:"*">{System.out.println("MULTIPLICAR -> "+image+"\r\n");}
+	| <DIVIDE:"/">{System.out.println("DIVIDIR -> "+image+"\r\n");}
+	| <INCR: "++" >{System.out.println("INCREMENTO -> "+image+"\r\n");}
+	| <DECR: "--" >{System.out.println("DECREMENTO -> "+image+"\r\n");}
+	
+}
+TOKEN:
+{
+	  <MAIN: "public static void Main() ">{System.out.println("MAIN -> "+image);}
+	| <PROGRAMA: "Programa " > {System.out.println("PROGRAMA -> "+image);}
+	| <IF: "ien " >{System.out.println("IF -> "+image);}
+	| <ELSE:"iotro " >{System.out.println("ELSE -> "+image);}
+	| <ELSEIF:"ien_otro " >{System.out.println("ELSE IF -> "+image);}
+	| <FOR:"irepetir " >{System.out.println("FOR -> "+image);}
+	| <SWITCH:"ialternativa " >{System.out.println("SWITCH -> "+image);}
+	| <CASE:"iopcion " >{System.out.println("CASE -> "+image);}
+	| <BREAK:"itermina " >{System.out.println("BREAK -> "+image);}
+	| <DEFAUL:"ipredef " >{System.out.println("DEFAUL -> "+image);}
+	| <DO:"ia " >{System.out.println("DO -> "+image);}
+	| <WHILE:"iespera " >{System.out.println("WHILE -> "+image);}
+	| <WRITE:"iescribir " >{System.out.println("WRITE -> "+image);}
+	| <READ:"ileer " >{System.out.println("READ -> "+image);}
+}
+TOKEN:
+{
+      <LPAREN: "(" >{System.out.println("IPAREN -> "+image);}
+	| <RPAREN: ")" >{System.out.println("DPAREN -> "+image);}
+	| <LBRACE: "{" >{System.out.println("ILLAVE -> "+image);}
+	| <RBRACE: "}" >{System.out.println("DLLAVE -> "+image);}
+	| <LBRACKET: "[" >{System.out.println("ICORC -> "+image);}
+	| <RBRACKET: "]" >{System.out.println("DCORC -> "+image);}
+	| <SEMICOLON: ";" >{System.out.println("PUNTO Y COMA -> "+image);}
+	| <COMMA: "," >{System.out.println("COMA -> "+image);}
+	| <DOT: "." >{System.out.println("PUNTO -> "+image);}
+}
+TOKEN:
+{
+	  <EQ: "==" >{System.out.println("IGUALACION -> "+image);}
+	| <LE: "<=" >{System.out.println("MENOR O IGUAL -> "+image);}
+	| <GE: ">=" >{System.out.println("MAYOR O IGUAL -> "+image);}
+	| <NE: "!=" >{System.out.println("DIFERENTE -> "+image);}
+	| <OR: "||" >{System.out.println("OR -> "+image);}
+	| <AND: "&&">{System.out.println("AND -> "+image);}
+}
+
+void Programa() :
+{}
+{
+	<PROGRAMA><IDENTIFIER><LBRACE>Bloque()<RBRACE><EOF>
+	
+}
+void Bloque():
+{}
+{
+	DeclaracionGlobal() | Principal()
+}
+void DeclaracionGlobal():
+{}
+{
+	<TYPES>VariablesGlobales()	
+}
+
+void VariablesGlobales():
+{}
+{
+	/*<IDENTIFIER>", "<IDENTIFIER> |*/ <IDENTIFIER> <SEMICOLON> W()
+}
+void W():
+{}
+{
+	DeclaracionGlobal() | Principal()	
+}
+
+void Principal():
+{}
+{
+	<MAIN>
+	<LBRACE>Sentencias()<RBRACE>
+}
+
+void DeclaracionLocal():
+{}
+{
+	<TYPES>VariablesLocales()
+}
+void VariablesLocales():
+{}
+{
+	/*<IDENTIFIER>", "<IDENTIFIER> | */<IDENTIFIER> <SEMICOLON> VS()
+}
+
+void VS():
+{}
+{
+	DeclaracionLocal() | Sentencias()
+}
+
+void Sentencias():
+{}
+{
+ (
+	  DeclaracionLocal()
+    | SentenciaIf() 	
+	| SentenciaFor()
+	| SentenciaDo()	
+	| SentenciaAsignacion()
+	| SentenciaWrite()
+	| SentenciaRead()	
+	|<EOF>
+	//| SentenciaSwitch()
+	/*| Sentencias()  Left Recursion: Poner Sentencias() a la finalizacion de cada metodo?*/
+ )*
+}
+
+//Sentencia IF
+void SentenciaIf():
+{}
+{
+	<IF><LPAREN> A() <RPAREN> <LBRACE> Sentencias() <RBRACE> /*|	
+	"ien " "( " A() ") " "{ "Sentencias()"} ""Sino "*/
+}
+/*void Sino():
+{}
+{
+	"iotro " "{ "Sentencias()"} "
+}*/
+void A():
+{}
+{
+	  Comparaciones()
+	/*| Comparaciones() "&& " Comparaciones()
+	| Comparaciones() "|| " Comparaciones()*/
+}
+//Fin sentencia if
+
+void Comparaciones():
+{}
+{
+	Valor()Operadores()Valor()
+}
+void Valor():
+{}
+{
+	<IDENTIFIER> | <NUMBER> /*| Expresion()*/
+}
+void Expresion():
+{}
+{
+	/*<NUMBER> | <IDENTIFIER> |*/ <IDENTIFIER><PLUS><IDENTIFIER><SEMICOLON> /*| <NUMBER> OpAritmetico() <NUMBER> | 
+	<IDENTIFIER> OpAritmetico() <IDENTIFIER>|
+	<IDENTIFIER> OpAritmetico() <NUMBER> | <IDENTIFIER> */
+}
+
+void Operadores():
+{}
+{
+	  <EQ> | <LE> |<GE>|<NE> 
+}
+void OpAritmetico():
+{}
+{
+	<PLUS>|<MINUS>|<MULTIPLY>|<DIVIDE>
+}
+//Sentencia FOR
+void SentenciaFor():
+{}
+{
+	<FOR> <LPAREN> SentenciaAsignacion() <SEMICOLON> Comparaciones() SentenciaAsignacion() <RPAREN> <LBRACE> Sentencias() <RBRACE>/*|
+	"irepetir " "( " SentenciaAsignacion() "; " Comparaciones() SentenciaAsignacion() ") " "{ " Sentencias() "} "Sentencias()*/
+}
+
+//Sentencia DO
+void SentenciaDo():
+{}
+{
+	<DO> <LBRACE>Sentencias() <RBRACE> <WHILE> <LPAREN> Comparaciones() <RPAREN> /*|
+	"iespera " "( " Comparaciones() ") " "{ " Sentencias() "} "	*/
+}
+
+//Sentencia ASIGNACION
+void SentenciaAsignacion():
+{}
+{
+	<IDENTIFIER> <ASIGNACION> Expresion()
+}
+
+//Sentencia WRITE
+void SentenciaWrite():
+{}
+{
+	<WRITE> <LPAREN> Expresion() <RPAREN> <SEMICOLON> /*|
+	"iescribir " "( " "^ " <CADENA> "^ " ") " "; "*/
+}
+
+//Sentencia READ
+void SentenciaRead():
+{}
+{
+	<READ><LPAREN><RPAREN><SEMICOLON>
+}
+
+

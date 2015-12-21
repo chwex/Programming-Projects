@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+    int num, sec=4;
+    
+    System.out.println("TEH WORST NUBMER GESSING GAME EVAR!!!!!!!1!");
+    System.out.print("I'M THKING OF A NBR FROM 1-10.  TRY 2 GESS!");
+    num = keyboard.nextInt();
+    
+    if(sec == num){
+    System.out.println("LOL!!! U GOT IT!  I CANT BELEIVE U GESSED IT WAS "+sec+"!");
+	}	
+	
+	else{
+		
+		System.out.println("W00T!  U SUX0R!!!  I PWN J00!!!  IT WAS "+sec+"!");
+	}
+	}
+	}

@@ -1,0 +1,17 @@
+import java.util.*;
+public class prac{
+	public static void main(String []args){
+	Scanner keyboard = new Scanner(System.in);
+	int x = 0;
+	System.out.print("Count from: ");
+	int n1 = keyboard.nextInt();
+	System.out.print("Count to: ");
+	int n2 = keyboard.nextInt();
+	System.out.print("Count by: ");
+	int n3 = keyboard.nextInt();
+	
+	for(x = n1; x <= n2; x = x+n3 ){
+		System.out.println(x+" ");
+	}
+	}
+}

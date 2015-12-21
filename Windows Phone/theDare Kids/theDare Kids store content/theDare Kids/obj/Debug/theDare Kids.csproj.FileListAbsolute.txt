@@ -1,0 +1,19 @@
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\theDare Kids.dll
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\theDare Kids.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\AppManifest.xaml
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\Bin\Debug\theDare_Kids_Debug_AnyCPU.xap
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\App.g.cs
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\MainPage.g.cs
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\theDare Kids.g.resources
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\theDare_Kids.Resources.AppResources.resources
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\theDare Kids.csproj.GenerateResource.Cache
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\theDare Kids.dll
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\theDare Kids.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\theDare Kids\theDare Kids\obj\Debug\XapCacheFile.xml

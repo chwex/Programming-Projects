@@ -1,0 +1,13 @@
+
+public class apples {
+public static void main(String args[]){
+	System.out.println(" CCC  BBBB  V   V  SSS ");
+	System.out.println("C   C B   B V   V S   S");
+	System.out.println("C     B   B V   V S");
+	System.out.println("C     BBBB  V   V  SSS ");
+	System.out.println("C     B   B V   V     S");
+	System.out.println("C   C B   B  V V  S   S");
+	System.out.println(" CCC  BBBB    V    SSS");
+}
+}
+

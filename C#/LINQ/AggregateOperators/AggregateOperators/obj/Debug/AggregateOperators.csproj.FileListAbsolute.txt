@@ -1,0 +1,6 @@
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\bin\Debug\AggregateOperators.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\obj\Debug\AggregateOperators.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\bin\Debug\AggregateOperators.exe
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\bin\Debug\AggregateOperators.pdb
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\obj\Debug\AggregateOperators.exe
+C:\Users\Carlos\Documents\Visual Studio 2012\Projects\AggregateOperators\AggregateOperators\obj\Debug\AggregateOperators.pdb

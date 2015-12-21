@@ -1,0 +1,6 @@
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\bin\Debug\practicaArboles.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\bin\Debug\practicaArboles.exe
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\bin\Debug\practicaArboles.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\obj\Debug\practicaArboles.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\obj\Debug\practicaArboles.exe
+c:\users\carlos\documents\visual studio 2012\Projects\practicaArboles\practicaArboles\obj\Debug\practicaArboles.pdb

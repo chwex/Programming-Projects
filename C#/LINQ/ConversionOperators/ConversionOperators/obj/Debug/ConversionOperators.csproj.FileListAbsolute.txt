@@ -1,0 +1,5 @@
+c:\users\carlos\documents\visual studio 2012\Projects\ConversionOperators\ConversionOperators\bin\Debug\ConversionOperators.exe.config
+c:\users\carlos\documents\visual studio 2012\Projects\ConversionOperators\ConversionOperators\bin\Debug\ConversionOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\ConversionOperators\ConversionOperators\bin\Debug\ConversionOperators.pdb
+c:\users\carlos\documents\visual studio 2012\Projects\ConversionOperators\ConversionOperators\obj\Debug\ConversionOperators.exe
+c:\users\carlos\documents\visual studio 2012\Projects\ConversionOperators\ConversionOperators\obj\Debug\ConversionOperators.pdb

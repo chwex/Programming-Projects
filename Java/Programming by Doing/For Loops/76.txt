@@ -1,0 +1,68 @@
+import java.util.*;
+
+public class prac{
+	public static void main( String[] args )
+	{
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("Welcome to Carlos' blackjack program!");
+	
+	String res1 = "";
+	Random r = new Random();
+	int card1 = 2 + r.nextInt(10);
+	int card2 = 2 + r.nextInt(10);
+	int card3 = 2 + r.nextInt(10);
+	int card4 = 2 + r.nextInt(10);
+	
+	int ptot = (card1+card2);
+	int ctot = (card3+card4);
+	
+	System.out.println("You get a "+card1+" and a "+card2);
+	System.out.println("Your Total is "+(ptot)+". ");
+	System.out.println();
+	System.out.println("The dealer has a "+card3+" showing, and a hidden card.");
+	System.out.println("His total is hidden too.");
+	
+	System.out.println("Would you like to \"hit\" or \"stay\"? ");
+    res1 = keyboard.next();
+	
+	while(res1.equals("hit")){
+		int card = 2 + r.nextInt(10);
+		ptot = ptot+card;
+		System.out.println("You drew a "+card+".");
+		System.out.println("Your total is "+ptot+".");
+		 if(ptot > 21){
+		 System.out.println("You Lose");
+	   	 System.exit(0);
+		 }
+		System.out.println("Would you like to \"hit\" or \"stay\"? ");
+	    res1 = keyboard.next();
+	   
+	    
+	}
+	
+	System.out.println("Okay, dealer's turn.");
+	System.out.println("His hidden card was "+card4+".");
+	System.out.println("His total was "+(ctot)+".");
+	
+	while(ctot <= 16){
+		System.out.println("Dealer chooses to hit");
+		int card = 2 + r.nextInt(10);
+		ctot = ctot+card;
+		System.out.println("He draws a "+card+".");
+		System.out.println("His total is "+ctot+".");
+		if(ctot > 21){
+	    	System.out.println("You WIn");
+	    	System.exit(0);
+		}
+	}
+	
+	System.out.println("Dealer total is "+ctot+".");
+	System.out.println("Your total is "+ptot+".");
+	if(ptot>ctot){
+		System.out.println("You Win!");	
+	}
+	else{
+		System.out.println("You Lose!");
+	}
+	}
+}

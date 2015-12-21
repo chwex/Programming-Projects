@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form method="post">
+        <label for="nombreCompleto">Nombre Completo</label>
+        <input autofocus ="autofocus" id="nombreCompleto" name="fullName" placeholder="Nombre Completo" required="required" title="Length: 3 - 50" pattern=".{3,50}" />
+        <br />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <br />
+        <label for="newsletterVal">Subscribe to Newsletter?</label>
+        <input type="checkbox" id="newsletterVal" />
+        <br />
+        <label for="notes">Notes: </label>
+        <textarea rows="5" cols="30" id="notes" required="required" maxlength="500"></textarea>
+        <br />
+        <label for="DOB">Date of Birth: </label>
+        <input type="date" id="DOB" name="DOB" />
+        <br />
+        <label for="salary">Salary: </label>
+        <input id="salary" type="number" step="500" min="20000" max="200000" />
+        <br />
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>

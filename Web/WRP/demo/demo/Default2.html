@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <link href="Default2.css" rel="stylesheet" type="text/css" />
+    <link href="SlickNav/dist/slicknav.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="fixed">
+            <div id="slick" class="slick">
+                <div class="slick-bar">  
+                    <ul id="menu">
+                        <li>Parent 1
+                        <ul>
+                            <li><a href="#">item 3</a></li>
+                            <li>Parent 3
+                            <ul>
+                                <li><a href="#">item 8</a></li>
+                                <li><a href="#">item 9</a></li>
+                                <li><a href="#">item 10</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">item 4</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">item 1</a></li>
+                        <li>non-link item</li>
+                        <li>Parent 2
+                            <ul>
+                                <li><a href="#">item 5</a></li>
+                                <li><a href="#">item 6</a></li>
+                                <li><a href="#">item 7</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    <div class="flex-item">
+        <div class="forma">
+            <form id="forma1" class="forma"> 
+                <label> Nombre:</label>
+                <input id="inpNom" type="text" style="vertical-align:middle"/><br class="ayuda">
+                <label> Apellido:</label>
+                <input id="inpApe" type="text" style="vertical-align:middle"/><br class="ayuda" >
+                <label>Sexo:</label><br>
+                <label> Male:</label>
+                <input  type="radio" name="sex" value="male"> <br>
+                <label>Female:</label>
+                <input  type="radio" name="sex" value="female"><br class="ayuda">
+                <label>Domicilio:</label>
+                <input id="inpDom" type="text" style="vertical-align:middle" />
+            </form>
+        </div>
+    </div>
+    
+    <footer>    
+    </footer>
+
+    <div id="popup" class="modal-box">
+        <header>
+            <a href="#" class ="js-modal-close close">x</a>
+            <h3>Ayuda de la Forma</h3>
+        </header>
+        <div class="modal-body">
+            <p>Componentes en la pagina principal</p>
+        </div>
+        <footer>
+            <a href="#" class ="js-modal-close">Close Button</a>
+        </footer>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/Default2.js"></script>
+    <script src="SlickNav/dist/jquery.slicknav.min.js"></script>
+</div>
+</body>
+</html>

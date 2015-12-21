@@ -1,0 +1,26 @@
+// n++ is a counter which adds 1 to the current value of the variable inside the while loop, is it is removed,
+// the loop never ends since the variable n never reaches 5 which is the number where the loop stops.  
+
+//
+import java.util.*;
+
+public class prac{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+
+		System.out.println( "Type in a message, and I'll display it five times." );
+		System.out.print( "Message: " );
+		String message = keyboard.nextLine();
+		System.out.println("How many times?");
+		int hmt = keyboard.nextInt();
+		
+		int n = 1;
+		while ( n < hmt+1 )
+		{
+			System.out.println( (n*10) + ". " + message );
+			n++;
+		}
+
+	}
+}

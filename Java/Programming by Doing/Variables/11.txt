@@ -1,0 +1,11 @@
+public class apples {
+public static void main(String args[]){
+    int num = 113;
+    double dou = 2.71828;
+    String comp = "Computer Science";
+    System.out.println(num);
+    System.out.println(dou);
+    System.out.println(comp);
+	
+}
+}

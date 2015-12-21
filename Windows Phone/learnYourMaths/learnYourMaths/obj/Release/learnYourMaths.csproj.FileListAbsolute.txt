@@ -1,0 +1,7 @@
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\App.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\About.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\Game.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\MainPage.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\learnYourMaths.g.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\learnYourMaths.Resources.AppResources.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\learnYourMaths\learnYourMaths\obj\Release\learnYourMaths.csproj.GenerateResource.Cache

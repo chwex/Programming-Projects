@@ -1,0 +1,38 @@
+import java.util.*;
+public class apples {
+public static void main(String args[]){
+	Scanner keyboard = new Scanner(System.in);
+	String fName, lName, login;
+	int grade, id;
+	double gpa;
+	
+	System.out.println("Please enter the following information so I can sell it for a profit");
+	System.out.println();
+	
+	System.out.println("First Name: ");
+	fName = keyboard.next();
+	
+	System.out.println("Last Name: ");
+	lName = keyboard.next();
+	
+	System.out.println("Grade (9-12): ");
+	grade = keyboard.nextInt();
+	
+	System.out.println("Student ID: ");
+	id = keyboard.nextInt();
+	
+	System.out.println("Login: ");
+	login = keyboard.next();
+	
+	System.out.println("GPA: ");
+	gpa = keyboard.nextDouble();
+	
+	System.out.println("Your Information:");
+	System.out.println("	Login: "+login);
+	System.out.println("	ID: "+id);
+	System.out.println("	Name: "+lName+","+fName);
+	System.out.println("	GPA: "+gpa);
+	System.out.println("	Grade: "+grade);
+	
+}
+}

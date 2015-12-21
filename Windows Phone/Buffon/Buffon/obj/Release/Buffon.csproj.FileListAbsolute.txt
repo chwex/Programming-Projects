@@ -1,0 +1,6 @@
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\App.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\About.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\MainPage.g.cs
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\Buffon.g.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\Buffon.Resources.AppResources.resources
+F:\Users\Carlos\Documents\Visual Studio 2013\Projects\Buffon\Buffon\obj\Release\Buffon.csproj.GenerateResource.Cache
